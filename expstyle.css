@@ -1,0 +1,146 @@
+  body {
+        position: relative;
+        background-color:rgb(245, 245, 245);
+        overflow-x: hidden;
+        
+    }
+    .parallax {
+  /* The image used */
+  background-image: url('map.png');
+
+  /* Full height */
+  height: 100%; 
+  min-width: 100%;
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+    p{
+        font-family: 'Josefin Sans', sans-serif;
+        color:#2d2d2d;
+    }
+    h1{
+        font-family:'Helvetica',sans-serif;
+    }
+    #section1 {padding-top:50px;height:1300px;color:rgb(0, 0, 0); background-color:rgb(245, 245, 245);background-size:cover;font-size: 20px;padding-left: 200px;padding-right: 200px;text-align: justify;}
+    #nominate {padding-top: 5vw;height: 25vw; background-color:rgb(245, 245, 245); color:black;font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;font-size: 20px;padding-left: 200px;padding-right: 200px;background-size: cover;background-repeat: no-repeat; background-position: center;}
+    #section2 {padding-top:50px;height:600px;color: #fff; background-color:black;background-image: url(abc.jpg);background-size: cover;background-repeat: no-repeat; background-position: center }
+   
+    #section4 {padding-top:50px;height:600px;color:black;background-color: white;}
+    #abouted {padding-top:50px;height:600px;color: #fff;padding-left: 200px;padding-right: 200px;font-size:20px; background-color:black;background-size: cover;background-repeat: no-repeat; background-position: center;text-align: justify }
+    #homepage{justify-content: center;margin-top: 0%;padding-top: 5%; height:700px;color:white;background-color:rgb(0, 0, 0);background-image:url(map.png); background-size:cover;background-position:center;background-repeat: no-repeat;}
+    #img{justify-content: center;}
+    #foot{padding-top: 10px;height: 140px;background-color:rgb(34, 31, 31);padding-left: 20px;color: gainsboro;text-align: left}
+    #cusatparallax{justify-content: center;width:100%;margin-top: 0%;padding-top: 5%; height:500px;color:white;background-color:rgb(0, 0, 0);background-image:url(back04.png); background-size:cover;background-position:center;background-repeat: no-repeat;}
+    #aboveabout{margin-top: 800px}
+    .navbar {
+    margin-bottom:0px;
+    font-size: 20px;
+    
+    border: 0;
+    height: 55px;
+
+    background-color:rgb(245, 245, 245);
+    }
+
+
+.navbar-nav li a:hover {
+color:black !important;
+}
+
+sup {
+    vertical-align: -5px;
+    font-size: smaller;
+}
+.overlay {
+    position:absolute;
+    top:100px;
+    left:0;
+    z-index:1;}
+@media only screen and (max-width:800px) {
+#abouted{
+    width:100%;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 50px;
+    background-size: cover;
+    font-size:20px;
+    height: 800px;
+     
+    }
+    #section1{padding-left: 25px;padding-right: 25px;height: 1800px;}
+    #nominate{padding-left: 25px;padding-right: 25px;height: 300px;padding-top: 40px}
+    #section3{height: 2750px;}
+    #homepage{background-size: cover;}
+    #aboveabout{margin-top: 200px;}
+    video{height: 100px;size: cover}
+    .overlay {
+    position:absolute;
+    top:25px;
+    left:0;
+    z-index:1;}
+    figure h1 { 
+  position: absolute;
+  left: 20px;
+  
+  }
+.heading1
+{
+  text-align: center;
+  font-size: 100px;
+}
+
+}
+figure {
+  margin: 0;
+  position: relative;
+}
+figure h1 {
+  position: absolute;
+  top: 150px;
+  left: 20px;
+  padding: 5px 10px 5px 5px;
+}
+figure h2{
+  position: relative;
+  top:400px;
+  left: 25px;
+}
+
+video {
+  padding-top:10px;
+  height: auto;
+  width: 100%;
+  max-width: 100%;
+  
+}
+
+
+.full{
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  height: auto;
+  width: auto;
+  min-height: 100%;
+  min-width: 100%;
+}
+.hero-wrapper {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  height: auto;
+  width: auto;
+  min-height: 100%;
+  min-width: 100%;
+  z-index: -9999;
+}
+.video-overlay{
+ position:absolute;
+  z-index:9999999999;
+}
+
+
+}
