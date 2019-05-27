@@ -104,7 +104,7 @@ sup {
     video{height: 100px;size: cover}
     .overlay {
     position:absolute;
-    top:25px;
+   
     left:0;
     z-index:1;}
     figure h1 { 
