@@ -23,6 +23,7 @@
     }
     h1{
         font-family:'Helvetica',sans-serif;
+        font-size: 25px;
     }
     #section1 {padding-top:50px;height:1300px;color:rgb(0, 0, 0); background-color:rgb(245, 245, 245);background-size:cover;font-size: 20px;padding-left: 200px;padding-right: 200px;text-align: justify;}
     #nominate {padding-top: 5vw;height: 25vw; background-color:rgb(245, 245, 245); color:black;font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;font-size: 20px;padding-left: 200px;padding-right: 200px;background-size: cover;background-repeat: no-repeat; background-position: center;}
@@ -46,7 +47,7 @@
       font-size: 20px;
       padding-left: 200px;
       padding-right: 200px;
-      height: 800px;
+      height: 1200px;
       text-align: justify;
       }
 
@@ -60,7 +61,10 @@
 
     background-color:rgb(245, 245, 245);
     }
-
+    #themehead{
+      font-size:5vw;
+    
+    }
 
 .navbar-nav li a:hover {
 color:black !important;
@@ -87,21 +91,31 @@ sup {
     
      
     }
+
+    h1{
+      font-size: 5vw;
+    }
+   img{
+     vertical-align: middle;
+   }
+    
     #section1{padding-left: 25px;padding-right: 25px;height: 1800px;margin-top: }
     #nominate{padding-left: 25px;padding-right: 25px;height: 300px;padding-top: 40px}
     #section3{height: 2750px;}
     #homepage{background-size: cover;}
     #aboveabout{margin-top: 200px;}
     #foot{height:450px}
+  
     #theme{
       width:100%;
       padding-left: 50px;
       padding-right: 25px;
       height: 400px;
       padding-top: 40px;
-      font-size: 20px;height:1500px;
+      font-size: 20px;height:1650px;
       
-    text-align: justify}
+    text-align: justify
+  }
     video{height: 100px;size: cover}
     .overlay {
     position:absolute;
@@ -113,6 +127,8 @@ sup {
   left: 20px;
   
   }
+  
+
 .heading1
 {
   text-align: center;
