@@ -23,7 +23,7 @@
     }
     h1{
         font-family:'Helvetica',sans-serif;
-        font-size: 25px;
+        
     }
     #section1 {padding-top:50px;height:1300px;color:rgb(0, 0, 0); background-color:rgb(245, 245, 245);background-size:cover;font-size: 20px;padding-left: 200px;padding-right: 200px;text-align: justify;}
     #nominate {padding-top: 5vw;height: 25vw; background-color:rgb(245, 245, 245); color:black;font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;font-size: 20px;padding-left: 200px;padding-right: 200px;background-size: cover;background-repeat: no-repeat; background-position: center;}
